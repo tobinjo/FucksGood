@@ -5,7 +5,7 @@
     	background-image: url('https://studentlife.umich.edu/files/sa/field/image/WtrCampusHousing(060).JPG');
     	background-size: cover;
 		}
-	h1, h2 {
+	div {
 		text-align: center;
 	}
 </style>
@@ -13,8 +13,8 @@
 <div class="everything">
     <h1>Welcome to our domain</h1>
     <h2>Created by John Tobin on 9/7/15</h2>
+    <%= link_to 'My Blog', controller: 'articles' %>
 </div>
 
-<%= link_to 'My Blog', controller: 'articles' %>
 </body>
 </html>
